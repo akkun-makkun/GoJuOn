@@ -47,26 +47,26 @@ export const MojiButton = ({ w, moji, isYouon }: Props) => {
     letter-spacing: -0.1em;
   `;
 
-  const cssBgcenterout = css`
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      z-index: 1;
-      background: white;
-      width: 100%;
-      height: 100%;
-      border-radius: 12px;
-      transition: transform 1s linear;
-      transform: scale(0, 0);
-      transform-origin: center;
-    }
-    &:hover::before {
-      transform: scale(1, 1);
-      transition-delay: 0.5s;
-    }
-  `;
+  // const cssBgcenterout = css`
+  //   &::before {
+  //     content: "";
+  //     position: absolute;
+  //     top: 0px;
+  //     left: 0px;
+  //     z-index: 1;
+  //     background: white;
+  //     width: 100%;
+  //     height: 100%;
+  //     border-radius: 12px;
+  //     transition: transform 1s linear;
+  //     transform: scale(0, 0);
+  //     transform-origin: center;
+  //   }
+  //   &:hover::before {
+  //     transform: scale(1, 1);
+  //     transition-delay: 0.5s;
+  //   }
+  // `;
 
   const cssSpan = css`
     position: relative;
