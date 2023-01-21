@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/GoJuOn/static/css/main.c2cab247.css",
+    "main.js": "/GoJuOn/static/js/main.1a2077a5.js",
+    "static/js/787.31708dc3.chunk.js": "/GoJuOn/static/js/787.31708dc3.chunk.js",
+    "service-worker.js": "/GoJuOn/service-worker.js",
+    "static/media/dakuonyouon_off.png": "/GoJuOn/static/media/dakuonyouon_off.03c9c7ecc706ce6e318a.png",
+    "static/media/youon_off.png": "/GoJuOn/static/media/youon_off.d2089e5171b87352aa9a.png",
+    "static/media/dakuonyouon_on.png": "/GoJuOn/static/media/dakuonyouon_on.630e95bdf7445623da39.png",
+    "static/media/dakuon_off.png": "/GoJuOn/static/media/dakuon_off.4b4433f1e97db7235fbd.png",
+    "static/media/youon_on.png": "/GoJuOn/static/media/youon_on.ae8b3388fb326a07833c.png",
+    "static/media/dakuon_on.png": "/GoJuOn/static/media/dakuon_on.5661bb11fa34e0729be7.png",
+    "static/media/seion_on.png": "/GoJuOn/static/media/seion_on.a5c1b82e63dea8563978.png",
+    "static/media/seion_off.png": "/GoJuOn/static/media/seion_off.9ede09b14fb2724cfc15.png",
+    "index.html": "/GoJuOn/index.html",
+    "static/media/delete.svg": "/GoJuOn/static/media/delete.6498c79e85ccbf599978cbc349ea8565.svg",
+    "static/media/play.svg": "/GoJuOn/static/media/play.9f7ea192a128ae0aa3e9f35e64d67f81.svg",
+    "main.c2cab247.css.map": "/GoJuOn/static/css/main.c2cab247.css.map",
+    "main.1a2077a5.js.map": "/GoJuOn/static/js/main.1a2077a5.js.map",
+    "787.31708dc3.chunk.js.map": "/GoJuOn/static/js/787.31708dc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.1a2077a5.js"
+  ]
+}
