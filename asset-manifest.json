@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GoJuOn/static/css/main.c2cab247.css",
-    "main.js": "/GoJuOn/static/js/main.57d901ea.js",
+    "main.js": "/GoJuOn/static/js/main.9041dbeb.js",
     "static/js/787.31708dc3.chunk.js": "/GoJuOn/static/js/787.31708dc3.chunk.js",
     "service-worker.js": "/GoJuOn/service-worker.js",
     "static/media/dakuonyouon_off.png": "/GoJuOn/static/media/dakuonyouon_off.03c9c7ecc706ce6e318a.png",
@@ -16,11 +16,11 @@
     "static/media/delete.svg": "/GoJuOn/static/media/delete.6498c79e85ccbf599978cbc349ea8565.svg",
     "static/media/play.svg": "/GoJuOn/static/media/play.9f7ea192a128ae0aa3e9f35e64d67f81.svg",
     "main.c2cab247.css.map": "/GoJuOn/static/css/main.c2cab247.css.map",
-    "main.57d901ea.js.map": "/GoJuOn/static/js/main.57d901ea.js.map",
+    "main.9041dbeb.js.map": "/GoJuOn/static/js/main.9041dbeb.js.map",
     "787.31708dc3.chunk.js.map": "/GoJuOn/static/js/787.31708dc3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.57d901ea.js"
+    "static/js/main.9041dbeb.js"
   ]
 }
