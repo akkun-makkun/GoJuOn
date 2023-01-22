@@ -7,6 +7,7 @@ import {
   DakuonYouonButton,
   HiraganaButton,
   KatakanaButton,
+  HenkanButton,
 } from "../Component/MojiChangeButton";
 
 export const BottomView = () => {
@@ -21,6 +22,9 @@ export const BottomView = () => {
     <>
       <div css={[cssContainer]}>
         <div>
+          <HenkanButton />
+        </div>
+        <div style={{ marginLeft: "30px" }}>
           <SeionButton />
           <DakuonButton />
           <YouonButton />

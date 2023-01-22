@@ -10,6 +10,7 @@ import youon_on from "../Image/youon_on.png";
 import youon_off from "../Image/youon_off.png";
 import dakuonyouon_on from "../Image/dakuonyouon_on.png";
 import dakuonyouon_off from "../Image/dakuonyouon_off.png";
+import { strHenkan, dictHenkan } from "../Others/DictHenkan";
 
 const cssBase = css`
   cursor: pointer;
@@ -241,6 +242,55 @@ export const KatakanaButton = () => {
       }}
     >
       <span>カタカナ</span>
+    </button>
+  );
+};
+
+export const HenkanButton = () => {
+  const { inputtext, setInputtext } = useContext(GlobalContext);
+  const last = inputtext.slice(-1);
+
+  const cssBtn = () => {
+    if (strHenkan.includes(last) === false || last === "") {
+      return css`
+        font-size: 20px;
+        font-weight: 700;
+        float: left;
+        text-align: center;
+        background-color: white;
+        border-style: solid;
+        width: 100px;
+        height: 80x;
+        line-height: 80px;
+        border-radius: 15px;
+      `;
+    } else {
+      return css`
+        font-size: 20px;
+        font-weight: 700;
+        float: left;
+        text-align: center;
+        background-color: rgb(0, 248, 146);
+        border-style: solid;
+        width: 100px;
+        height: 80x;
+        line-height: 80px;
+        border-radius: 15px;
+      `;
+    }
+  };
+
+  const setHenkan = () => {
+    if (strHenkan.includes(last)) {
+      const text = inputtext.slice(0, -1);
+      const index = dictHenkan.findIndex((e) => e.from === last);
+      setInputtext(text + dictHenkan[index].to);
+    }
+  };
+
+  return (
+    <button css={[cssBtn, cssBase]} onClick={setHenkan}>
+      <span>変換</span>
     </button>
   );
 };

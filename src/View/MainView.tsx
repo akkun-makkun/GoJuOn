@@ -14,16 +14,15 @@ import { DictKatakanaYouon } from "../Others/DictKatakanaYouon";
 import { DictKatakanaDakuonYouon } from "../Others/DictKatakanaDakuonYouon";
 
 export const MainView = () => {
-  const calcWidth = () => {
-    // var w = (window.innerHeight - 200) / 5;
-    // if (w < 40) {
-    //   w = 40;
-    // } else if (w > 80) {
-    //   w = 80;
-    // }
-    var w = 100;
-    return w;
-  };
+  // const calcWidth = () => {
+  // var w = (window.innerHeight - 200) / 5;
+  // if (w < 40) {
+  //   w = 40;
+  // } else if (w > 80) {
+  //   w = 80;
+  // }
+  //   return w;
+  // };
   // const [width, setWidth] = useState(100);
 
   // window.onresize = () => {
