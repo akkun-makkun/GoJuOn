@@ -24,7 +24,7 @@ export const MainView = () => {
     var w = 100;
     return w;
   };
-  const [width, setWidth] = useState(120);
+  const [width, setWidth] = useState(calcWidth);
 
   window.onresize = () => {
     setWidth(calcWidth);
