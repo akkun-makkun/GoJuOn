@@ -24,11 +24,11 @@ export const MainView = () => {
     var w = 100;
     return w;
   };
-  const [width, setWidth] = useState(calcWidth);
+  // const [width, setWidth] = useState(100);
 
-  window.onresize = () => {
-    setWidth(calcWidth);
-  };
+  // window.onresize = () => {
+  //   setWidth(calcWidth);
+  // };
 
   const gyou = [];
   for (let index = 0; index < 10; index++) {
@@ -84,7 +84,7 @@ export const MainView = () => {
     }
 
     return dict[i].map((m) => (
-      <MojiButton key={m.id} w={width} moji={m.moji} isYouon={m.isYouon} />
+      <MojiButton key={m.id} w={100} moji={m.moji} isYouon={m.isYouon} />
     ));
   };
 

@@ -17,6 +17,7 @@ const cssBase = css`
   float: left;
   border-color: black;
   border-style: solid;
+  margin-right: 2px;
 `;
 
 const cssLeft = css`
@@ -33,8 +34,8 @@ const cssRight = css`
 `;
 
 const cssImg = css`
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   pointer-events: none;
 `;
 
@@ -174,8 +175,8 @@ export const HiraganaButton = () => {
         background-color: rgb(0, 248, 146);
         border-style: solid;
         width: 100px;
-        height: 70x;
-        line-height: 70px;
+        height: 80x;
+        line-height: 80px;
       `;
     } else {
       return css`
@@ -186,8 +187,8 @@ export const HiraganaButton = () => {
         background-color: white;
         border-style: solid;
         width: 100px;
-        height: 70x;
-        line-height: 70px;
+        height: 80x;
+        line-height: 80px;
       `;
     }
   };
@@ -215,8 +216,8 @@ export const KatakanaButton = () => {
         background-color: rgb(0, 248, 146);
         border-style: solid;
         width: 100px;
-        height: 70x;
-        line-height: 70px;
+        height: 80x;
+        line-height: 80px;
       `;
     } else {
       return css`
@@ -227,8 +228,8 @@ export const KatakanaButton = () => {
         background-color: white;
         border-style: solid;
         width: 100px;
-        height: 70x;
-        line-height: 70px;
+        height: 80x;
+        line-height: 80px;
       `;
     }
   };
