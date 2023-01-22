@@ -21,10 +21,10 @@ export const MainView = () => {
     // } else if (w > 80) {
     //   w = 80;
     // }
-    var w = 75;
+    var w = 100;
     return w;
   };
-  const [width, setWidth] = useState(calcWidth);
+  const [width, setWidth] = useState(120);
 
   window.onresize = () => {
     setWidth(calcWidth);
