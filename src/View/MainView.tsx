@@ -15,15 +15,13 @@ import { DictKatakanaDakuonYouon } from "../Others/DictKatakanaDakuonYouon";
 
 export const MainView = () => {
   const calcWidth = () => {
-    var w = (window.innerHeight - 200) / 5;
-    if (w < 40) {
-      w = 40;
-    } else if (w > 80) {
-      w = 80;
-    }
-    // if (w * 10 - 100 > window.innerWidth) {
-    //   w = (window.innerWidth - 80) / 10;
+    // var w = (window.innerHeight - 200) / 5;
+    // if (w < 40) {
+    //   w = 40;
+    // } else if (w > 80) {
+    //   w = 80;
     // }
+    var w = 75;
     return w;
   };
   const [width, setWidth] = useState(calcWidth);
