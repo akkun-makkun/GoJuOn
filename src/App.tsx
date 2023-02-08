@@ -41,12 +41,12 @@ function App() {
     >
       <div>
         <h1 style={{ textAlign: "center" }}>ごじゅーおんweb</h1>
-
         <div className="bg-dark p-3">
           <TopView />
           <MainView />
           <BottomView />
         </div>
+        <p style={{ textAlign: "center" }}>v0.2</p>
       </div>
     </GlobalContext.Provider>
   );

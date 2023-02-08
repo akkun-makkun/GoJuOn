@@ -33,7 +33,8 @@ export const MojiButton = ({ w, moji, isYouon }: Props) => {
     line-height: ${w}px;
 
     &:hover {
-      box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.4);
+      border-color: red;
+      border-width: 5px;
     }
     &:active {
       opacity: 0.6;
@@ -43,7 +44,7 @@ export const MojiButton = ({ w, moji, isYouon }: Props) => {
   `;
 
   const cssBtnYouon = css`
-    font-size: ${w - 45}px;
+    font-size: ${w - 60}px;
     letter-spacing: -0.1em;
   `;
 

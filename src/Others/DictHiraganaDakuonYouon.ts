@@ -41,7 +41,7 @@ export const DictHiraganaDakuonYouon: TypeMoji[][] = [
     },
     {
       id: "m13",
-      moji: "",
+      moji: "じゅ",
       isYouon: true,
     },
     {

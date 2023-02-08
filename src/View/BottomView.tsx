@@ -9,6 +9,7 @@ import {
   KatakanaButton,
   HenkanButton,
 } from "../Component/MojiChangeButton";
+import { TenButton } from "../Component/TenButton";
 
 export const BottomView = () => {
   const cssContainer = css`
@@ -33,6 +34,12 @@ export const BottomView = () => {
         <div style={{ marginLeft: "30px" }}>
           <HiraganaButton />
           <KatakanaButton />
+        </div>
+        <div style={{ marginLeft: "30px" }}>
+          <TenButton moji="、" />
+          <TenButton moji="。" />
+          <TenButton moji="！" />
+          <TenButton moji="？" />
         </div>
       </div>
     </>

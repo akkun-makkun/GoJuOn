@@ -270,7 +270,7 @@ export const HenkanButton = () => {
         font-weight: 700;
         float: left;
         text-align: center;
-        background-color: rgb(0, 248, 146);
+        background-color: rgb(255, 146, 255);
         border-style: solid;
         width: 100px;
         height: 80x;
